@@ -4,6 +4,26 @@ A real-time, multi-user drawing application that enables multiple users to draw 
 
 ---
 
+## 🎯 Overview
+
+This project demonstrates a simple yet powerful real-time collaborative drawing tool built entirely with **Vanilla JavaScript**, **HTML5 Canvas**, and **Node.js (Socket.io)**.  
+It allows users to draw together, erase, change colors, adjust stroke width, and see others' drawings in real time.
+
+---
+
+## ✨ Features
+
+-  **Drawing Tools** – Brush and eraser  
+-  **Customizable Settings** – Select color and brush thickness  
+-  **Real-Time Sync** – Live updates across all connected clients  
+-  **Multi-User Collaboration** – All users share the same canvas  
+-  **Global Undo/Redo** – Simple shared history (prototype stage)  
+-  **Conflict Handling** – Basic overwrite-safe synchronization  
+-  **Lightweight** – Pure JS + Canvas + Socket.io, no frameworks  
+
+---
+
+
 ## 📁 Project Structure
 
 ```
