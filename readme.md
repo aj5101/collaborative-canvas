@@ -95,14 +95,6 @@ Conflict handling ensures that all users stay in sync with the same global state
 
 ---
 
-### ⚙️ Performance Optimizations
-
-- Event throttling: Mouse events are sampled at short intervals to prevent overload.  
-- Path batching: Instead of sending every pixel, grouped points are sent per stroke.  
-- Lightweight canvas updates: Redraws only required paths during undo/redo.  
-
----
-
 ### ⚠️ Known Limitations
 
 - Undo/Redo is global (not per-user) and may conflict if multiple users draw simultaneously.  
@@ -114,36 +106,10 @@ Conflict handling ensures that all users stay in sync with the same global state
 
 ### 🚀 Future Enhancements
 
-- 🧠 Per-user undo/redo system  
-- 💾 Persistent session storage (save/load drawings)  
-- 📱 Touch-screen/mobile drawing support  
-- 🎯 Real-time cursor position indicators  
-- 🔐 User management (login + identity colors)  
-- 🧮 Optimized server scaling for 1000+ users  
+-  Per-user undo/redo system  
+-  Persistent session storage (save/load drawings)  
+-  Touch-screen/mobile drawing support  
+-  Real-time cursor position indicators  
+-  User management (login + identity colors)  
+-  Optimized server scaling for 1000+ users  
 
----
-
-## 📚 Time Spent
-
-| Task | Duration |
-|------|-----------|
-| Environment setup | 1 hour |
-| Canvas drawing logic | 3 hours |
-| WebSocket integration | 2 hours |
-| Undo/Redo and testing | 2 hours |
-| Documentation | 1 hour |
-| **Total** | **~9 hours** |
-
----
-
-## 👨‍💻 Author
-
-**Your Name**  
-📧 Email: `<your-email@example.com>`  
-🌐 GitHub: [@your-username](https://github.com/your-username)
-
----
-
-## 🧾 License
-
-This project is open-source and available under the **MIT License**.
